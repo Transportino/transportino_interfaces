@@ -28,6 +28,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/BoardCmd.srv"
   "srv/BoardReset.srv"
+  "srv/StatusLedCtrl.srv"
   "msg/BoardMotor.msg"
   "msg/BoardMotors.msg"
   DEPENDENCIES std_msgs
